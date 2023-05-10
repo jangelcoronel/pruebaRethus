@@ -1,0 +1,5 @@
+<button mat-button [matMenuTriggerFor]="menu">{{ selectLang | async | uppercase }}</button>
+<mat-menu #menu="matMenu">
+	<button mat-menu-item (click)="onEventSetLang('es')">{{ 'header.titles.es' | translate }}</button>
+	<button mat-menu-item (click)="onEventSetLang('en')">{{ 'header.titles.en' | translate }}</button>
+</mat-menu>

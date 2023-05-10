@@ -1,0 +1,11 @@
+{
+	"header": {
+		"errors": {},
+		"success": {},
+		"titles": {
+			"es": "Espanol",
+			"en": "Ingles",
+			"loginTitle": "Iniciar sesión"
+		}
+	}
+}
